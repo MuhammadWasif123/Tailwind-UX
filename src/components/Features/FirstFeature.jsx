@@ -6,7 +6,7 @@ import blueArrow from '../../assets/Images/blue-button.svg'
 
 const FirstFeature = () => {
   return (
-    <div className='flex flex-col px-[24px] sm:flex sm:flex-row-reverse lg:mr-[20px] lg:mt-[12px]'>
+    <div className='flex flex-col px-[24px] sm:flex sm:flex-row-reverse lg:mr-[20px] lg:mt-[12px] xl:max-w-[1695px] xl:mx-auto '>
         <img src={Feature1} alt="Error Loading Image" className='hidden w-1/2 sm:block ' />
         <div className='sm:w-1/2 lg:pt-[48px] lg:pb-[15px] lg:pr-[13px] lg:pl-[13px] lg:flex lg:flex-col lg:gap-y-[15px]'>
             <h3 className='text-[#0085FF] font-medium text-xl md:text-base lg:text-xl '>Sales Monitoring</h3>

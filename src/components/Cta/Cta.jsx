@@ -4,7 +4,7 @@ import pinkBtn from '../../assets/Images/pink-button.svg'
 
 const Cta = () => {
   return (
-    <div className='w-[91%] rounded-[16px] bg-gradient-to-tr from-blue-500 to-orange-600 py-[54px] px-[32px] my-6 mx-6 md:my-[95px] md:w-[96%]'>
+    <div className='w-[91%] rounded-[16px] bg-gradient-to-tr from-blue-500 to-orange-600 py-[54px] px-[32px] my-6 mx-6 md:my-[95px] md:w-[96%] xl:max-w-[1695px] xl:mx-auto'>
     <h1 className='text-center text-[#FFFFFF] font-medium text-[34px] px-8 lg:text-[42px]
     lg:px-[400px] lg:pb-[20px]'>Monitor your website like a pro</h1>
     

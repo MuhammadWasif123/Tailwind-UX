@@ -36,7 +36,7 @@ const items=[
 
 const Faq = () => {
   return (
-    <div className='flex flex-col w-full px-[24px] md:flex md:flex-row  md:gap-x-4 md:mt-12'>
+    <div className='flex flex-col w-full px-[24px] md:flex md:flex-row  md:gap-x-4 md:mt-12  xl:max-w-[1695px] xl:mx-auto'>
         <div className='pl-6 md:w-[40%] md:pt-16   '>
           <h3 className='text-[#EB2891] font-semibold text-xl md:pb-6 md:text-[19px]'>Frequently Asked Questions</h3>
           <h1 className='text-[#172026] font-bold capitalize text-3xl pt-[5px] md:font-semibold md:pb-4 md:text-4xl md:pr-[53px] lg:leading-10'>Lets clarify some of your questions</h1>

@@ -15,7 +15,7 @@ const Navbar = () => {
 
 
   return (
-  <nav className='flex w-full items-center justify-between px-4 py-3 lg:container lg:mx-auto'>
+  <nav className='flex w-full items-center justify-between px-4 py-3 lg:container lg:mx-auto  xl:max-w-[1695px] xl:mx-auto'>
     <div className='flex items-center'>
         <img src={Logo} alt="Error Loading Image" className='cursor-pointer' />
 

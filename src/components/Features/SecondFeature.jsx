@@ -6,7 +6,7 @@ import greenBtn from '../../assets/Images/green-button.svg'
 
 const SecondFeature = () => {
   return (
-    <div className='flex flex-col px-[24px] sm:flex sm:flex-row sm:gap-x-16 '>
+    <div className='flex flex-col px-[24px] sm:flex sm:flex-row sm:gap-x-16 xl:max-w-[1695px] xl:mx-auto'>
       <img src={Feature2} alt="Feature2" className='hidden sm:block sm:w-1/2 lg:pl-6' />
       
       <div className='sm:w-1/2 lg:pt-12  '>

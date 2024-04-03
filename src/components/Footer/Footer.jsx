@@ -8,7 +8,7 @@ import Feed from '../../assets/Images/Feed.svg'
 
 const Footer = () => {
   return (
-    <div className='pt-[50px] pb-[40px]'>
+    <div className='pt-[50px] pb-[40px] xl:max-w-[1695px] xl:mx-auto'>
         <div className='px-4 flex items-center justify-center gap-x-[18px] sm:gap-x-[30px]'>
             <img src={Logo} alt="Error Loading Image"  className='cursor-pointer'/>
             <p className='text-[#36485C] font-bold text-xl'>YOUR SITE</p>
@@ -24,9 +24,9 @@ const Footer = () => {
         <p className='text-center pt-8 text-[#5F7896] font-medium text-base sm:text-lg'>&copy; Copyright 2024. Your Site. All rights reserved.</p>
 
         <div className='flex flex-row justify-center items-center gap-x-[50px] mt-8 sm:mt-10 '>
-            <img src={X} alt="Error Loading Image" className='cursor-pointer w-[2.1%]' />
-            <img src={faceBook} alt="Error Loading Images" className='cursor-pointer w-[2.1%]' />
-            <img src={Feed} alt="Error Loading Image" className='cursor-pointer w-[2.1%]' />
+            <img src={X} alt="Error Loading Image" className='cursor-pointer lg:w-[2.1%]' />
+            <img src={faceBook} alt="Error Loading Images" className='cursor-pointer lg:w-[2.1%]' />
+            <img src={Feed} alt="Error Loading Image" className='cursor-pointer lg:w-[2.1%]' />
         </div>
     </div>
   )

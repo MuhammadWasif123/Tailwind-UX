@@ -5,7 +5,7 @@ import pinkBtn from '../../assets/Images/pink-button.svg'
 
 const ThirdFeature = () => {
   return (
-    <div className='flex flex-col px-[24px] sm:flex sm:flex-row-reverse sm:gap-x-16 '>
+    <div className='flex flex-col px-[24px] sm:flex sm:flex-row-reverse sm:gap-x-16 xl:max-w-[1695px] xl:mx-auto'>
     <img src={Feature3} alt="Feature2" className='hidden sm:block sm:w-1/2 lg:pr-6' />
     
     <div className='sm:w-1/2 lg:pt-12  '>

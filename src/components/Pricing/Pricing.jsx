@@ -4,7 +4,7 @@ import whiteCheckBtn from '../../assets/Images/white-check.svg'
 
 const Pricing = () => {
   return (
-    <div className="pt-[90px] lg:px-[15px]">
+    <div className="pt-[90px] lg:px-[15px] xl:max-w-[1695px] xl:mx-auto">
       <h1 className="text-center text-[#172026] text-3xl capitalize font-medium md:text-4xl">Flexible plans for you</h1>
       <p className="text-center text-[#36485C] pt-4 font-medium  text-lg md:text-xl md:pt-4">No hidden fees!</p>
 

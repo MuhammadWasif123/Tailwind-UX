@@ -12,7 +12,7 @@ import Clutch from '../../assets/Images/Clutch.svg'
 
 const Hero = () => {
   return (
-    <div className='pt-6 lg:pt-10 ' >
+    <div className='pt-6 lg:pt-10 xl:max-w-[1695px] xl:mx-auto ' >
       <div className='px-[20px] lg:px-[250px]'>
         <h1 className='capatilize text-[#172026] font-medium text-center text-[32px] leading-[40px] lg:text-[64px] lg:leading-[72px] lg:font-semibold'>Start monitoring your website like a pro</h1>
         
